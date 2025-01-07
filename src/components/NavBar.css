@@ -1,0 +1,47 @@
+.navbar-container {
+  font-size: 1.2rem;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar h2 {
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.navbar ul {
+  display: flex;
+  margin-right: auto;
+}
+
+.container .navbar {
+  justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.container .navbar ul li {
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.navbar a {
+  font-weight: bold;
+}
+
+.navbar img {
+  height: 40px;
+  width: 40px;
+}
